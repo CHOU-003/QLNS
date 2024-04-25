@@ -1,0 +1,44 @@
+﻿@model AppHRM.Models.Chucvu
+
+@{
+    ViewData["Title"] = "Delete";
+}
+
+<h1>Xóa Thông Tin Chức Vụ</h1>
+
+<h5>Bạn có muốn xóa thông tin chức vụ này ?</h5>
+<div>
+
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.MaChucVu)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.MaChucVu)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.TenChucVu)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.TenChucVu)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.MoTa)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.MoTa)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.LuongCoBan)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.LuongCoBan)
+        </dd>
+    </dl>
+    
+    <form asp-action="Delete">
+        <input type="hidden" asp-for="Id" />
+        <input type="submit" value="Delete" class="btn btn-danger" /> |
+        <a asp-action="Index" class="btn btn-dark">Trở lại danh sách</a>
+    </form>
+</div>

@@ -1,0 +1,173 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = AppHRM
+build_property.RootNamespace = AppHRM
+build_property.ProjectDir = D:\CAPTURES\AppHRM\AppHRM\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = D:\CAPTURES\AppHRM\AppHRM
+build_property._RazorSourceGeneratorDebug = 
+
+[D:/CAPTURES/AppHRM/AppHRM/Views/Chucvu/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2h1Y3Z1XENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/CAPTURES/AppHRM/AppHRM/Views/Chucvu/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2h1Y3Z1XERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/CAPTURES/AppHRM/AppHRM/Views/Chucvu/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2h1Y3Z1XERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/CAPTURES/AppHRM/AppHRM/Views/Chucvu/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2h1Y3Z1XEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/CAPTURES/AppHRM/AppHRM/Views/Chucvu/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2h1Y3Z1XEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/CAPTURES/AppHRM/AppHRM/Views/Congviec/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29uZ3ZpZWNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/CAPTURES/AppHRM/AppHRM/Views/Congviec/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29uZ3ZpZWNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/CAPTURES/AppHRM/AppHRM/Views/Congviec/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29uZ3ZpZWNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/CAPTURES/AppHRM/AppHRM/Views/Congviec/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29uZ3ZpZWNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/CAPTURES/AppHRM/AppHRM/Views/Congviec/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29uZ3ZpZWNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/CAPTURES/AppHRM/AppHRM/Views/Duan/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRHVhblxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/CAPTURES/AppHRM/AppHRM/Views/Duan/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRHVhblxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/CAPTURES/AppHRM/AppHRM/Views/Duan/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRHVhblxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/CAPTURES/AppHRM/AppHRM/Views/Duan/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRHVhblxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/CAPTURES/AppHRM/AppHRM/Views/Duan/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRHVhblxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/CAPTURES/AppHRM/AppHRM/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/CAPTURES/AppHRM/AppHRM/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/CAPTURES/AppHRM/AppHRM/Views/HopDong/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9wRG9uZ1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/CAPTURES/AppHRM/AppHRM/Views/HopDong/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9wRG9uZ1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/CAPTURES/AppHRM/AppHRM/Views/HopDong/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9wRG9uZ1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/CAPTURES/AppHRM/AppHRM/Views/HopDong/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9wRG9uZ1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/CAPTURES/AppHRM/AppHRM/Views/HopDong/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9wRG9uZ1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/CAPTURES/AppHRM/AppHRM/Views/Login/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cRXJyb3IuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/CAPTURES/AppHRM/AppHRM/Views/Login/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/CAPTURES/AppHRM/AppHRM/Views/Nhanvien/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmhhbnZpZW5cQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/CAPTURES/AppHRM/AppHRM/Views/Nhanvien/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmhhbnZpZW5cRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/CAPTURES/AppHRM/AppHRM/Views/Nhanvien/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmhhbnZpZW5cRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/CAPTURES/AppHRM/AppHRM/Views/Nhanvien/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmhhbnZpZW5cRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/CAPTURES/AppHRM/AppHRM/Views/Nhanvien/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmhhbnZpZW5cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/CAPTURES/AppHRM/AppHRM/Views/Phongban/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGhvbmdiYW5cQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/CAPTURES/AppHRM/AppHRM/Views/Phongban/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGhvbmdiYW5cRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/CAPTURES/AppHRM/AppHRM/Views/Phongban/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGhvbmdiYW5cRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/CAPTURES/AppHRM/AppHRM/Views/Phongban/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGhvbmdiYW5cRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/CAPTURES/AppHRM/AppHRM/Views/Phongban/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGhvbmdiYW5cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/CAPTURES/AppHRM/AppHRM/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/CAPTURES/AppHRM/AppHRM/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/CAPTURES/AppHRM/AppHRM/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/CAPTURES/AppHRM/AppHRM/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/CAPTURES/AppHRM/AppHRM/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-zn3asy40zn

@@ -1,0 +1,46 @@
+﻿@model AppHRM.Models.Chucvu
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Thêm Chức Vụ Mới</h1>
+
+
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="MaChucVu" class="control-label"></label>
+                <input asp-for="MaChucVu" class="form-control" />
+                <span asp-validation-for="MaChucVu" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="TenChucVu" class="control-label"></label>
+                <input asp-for="TenChucVu" class="form-control" />
+                <span asp-validation-for="TenChucVu" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="MoTa" class="control-label"></label>
+                <input asp-for="MoTa" class="form-control" />
+                <span asp-validation-for="MoTa" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="LuongCoBan" class="control-label"></label>
+                <input asp-for="LuongCoBan" class="form-control" />
+                <span asp-validation-for="LuongCoBan" class="text-danger"></span>
+            </div>
+            <div class="form-group mt-2">
+                <input type="submit" value="Thêm" class="btn btn-primary" /> |
+                <a asp-action="Index" class="btn btn-dark">Trở lại danh sách</a>
+            </div>
+        </form>
+    </div>
+</div>
+
+
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

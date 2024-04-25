@@ -1,0 +1,94 @@
+﻿@{
+    ViewData["Title"] = "Nhân Viên Page";
+}
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-4">
+            <p class="display-4" style="font-size: 25px; color: purple;">Danh Sách Thông Tin Trong CTY</p>
+            <div class="list-group">
+                <a href="Phongban/Index" class="list-group-item list-group-item-action">
+                    <i class="fa fa-home"></i> Thông Tin Phòng Ban
+                </a>
+                <a href="Nhanvien/Index" class="list-group-item list-group-item-action">
+                    <i class="fa fa-home"></i> Thông Tin Nhân Viên
+                </a>
+                <a href="HopDong/Index" class="list-group-item list-group-item-action">
+                    <i class="fa fa-home"></i> Thông Tin Hợp Đồng Nhân Viên
+                </a>
+                <a href="Duan/Index" class="list-group-item list-group-item-action">
+                    <i class="fa fa-home"></i> Thông Tin Dự Án
+                </a>
+                <a href="Chucvu/Index" class="list-group-item list-group-item-action">
+                    <i class="fa fa-home"></i> Thông Tin Chức Vụ
+                </a>
+                <a href="Congviec/Index" class="list-group-item list-group-item-action">
+                    <i class="fa fa-home"></i> Thông Tin Công Việc
+                </a>
+            </div>
+
+            <div class="mt-3">
+                <!-- Progress Bar -->
+                <h5>Qúa trình thực hiện của dự án</h5>
+                <div class="progress mt-1">
+                    <div class="progress-bar" role="progressbar" style="width: 75%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">75%</div>
+                </div>
+                <div class="progress mt-1">
+                    <div class="progress-bar" role="progressbar" style="width: 50%;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">50%</div>
+                </div>
+                <div class="progress mt-1">
+                    <div class="progress-bar" role="progressbar" style="width: 85%;" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">85%</div>
+                </div>
+
+                <!-- Pie Chart -->
+                <h5 class="mt-3">Dữ liệu phân tích công việc</h5>
+                <img src="~/Img/Pie.jpeg" width="400" height="400" alt="Hình ảnh Ngồi Thuyết Trình" />
+            </div>
+        </div>
+        <div class="col-md-8 text-center">
+            <h4 class="display-4" style="font-size: 25px; color: red;">THÔNG BÁO TRONG CTY</h4>
+            <div class="list-group">
+                <div class="list-group-item list-group-item-action">
+                    <h3>Cơ hội phát triển bản thân cùng công việc IT</h3>
+                    <img src="~/Img/IT.jpeg" width="550" height="400" alt="Hình ảnh IT" />
+                    <p>
+                        Trang thiết bị hiện đại: Chúng tôi đầu tư vào hệ thống máy móc, 
+                        phần mềm tiên tiến nhất để hỗ trợ bạn tối ưu trong công việc.
+                        Văn hóa doanh nghiệp năng động: Cùng nhau học hỏi, chia sẻ và 
+                        phát triển trong môi trường trẻ trung, cởi mở và đầy nhiệt huyết.
+                    </p>
+                </div>
+                <div class="list-group-item list-group-item-action">
+                    <h3>Thổi bùng sáng tạo</h3>
+                    <img src="~/Img/Ngoi.jpeg"  width="550" height="400" alt="Hình ảnh Ngồi Thuyết Trình" />
+                    <p>
+                        Giới thiệu ngắn gọn về buổi thuyết trình và mục tiêu.
+                        Nêu tầm quan trọng của thiết kế trong công ty.
+                        Nhấn mạnh lợi ích của việc áp dụng các nguyên tắc thiết kế hiệu quả.
+                    </p>
+                </div>
+                <div class="list-group-item list-group-item-action">
+                    <h3>Họp Nội Bộ: Chia Sẻ Thông Tin & Đề Xuất Giải Pháp</h3>
+                    <img src="~/Img/Hop.jpeg"  width="550" height="400" alt="Hình ảnh Họp" />
+                    <p>
+                        hảo luận về các vấn đề và thách thức đang gặp phải.
+                        Góp ý và đề xuất giải pháp cải thiện hiệu quả công việc.
+                        Lắng nghe ý kiến và phản hồi từ các thành viên.
+                    </p>
+                </div>
+                <div class="list-group-item list-group-item-action">
+                    <h3>Khởi công xây dựng công trình Đê Chắn Lũ - Niềm tự hào mới cho tỉnh Cần Thơ</h3>
+                    <img src="~/Img/LamHo.jpeg"  width="550" height="400" alt="Hình ảnh Thi Công" />
+                    <p>
+                        Buổi lễ khởi công đánh dấu bước ngoặt quan trọng cho dự án Đê Chắn Lũ.
+                        Dự án dự kiến hoàn thành vào 25/9/2025 
+                        và sẽ góp phần nâng cao chất lượng cuộc sống cho người dân tỉnh Cần Thơ.</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+

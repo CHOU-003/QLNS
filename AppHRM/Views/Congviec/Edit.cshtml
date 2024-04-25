@@ -1,0 +1,43 @@
+﻿@model AppHRM.Models.Congviec
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1>Chỉnh Sửa Thông Tin Công Việc</h1>
+
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit" method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <input asp-for="Id" type="hidden" class="form-control" />
+                <span asp-validation-for="Id" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="MaNhanVien" class="control-label"></label>
+                <input asp-for="MaNhanVien" class="form-control" />
+                <span asp-validation-for="MaNhanVien" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="MaDuAn" class="control-label"></label>
+                <input asp-for="MaDuAn" class="form-control" />
+                <span asp-validation-for="MaDuAn" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="TienDo" class="control-label"></label>
+                <input asp-for="TienDo" class="form-control" />
+                <span asp-validation-for="TienDo" class="text-danger"></span>
+            </div>
+            <div class="form-group mt-2">
+                <input type="submit" value="Cập Nhật" class="btn btn-primary" /> |
+                <a asp-action="Index" class="btn btn-dark">Trở lại danh sách</a>
+            </div>
+        </form>
+    </div>
+</div>
+
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

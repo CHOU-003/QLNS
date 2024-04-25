@@ -1,0 +1,64 @@
+﻿@model IEnumerable<AppHRM.Models.Duan>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1 class="text-center">Danh Sách Các Dự Án</h1>
+
+<a asp-action="Create" class="btn btn-primary">Thêm Mới</a>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.MaDuAn)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.MoTa)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TenDuAn)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TrangThai)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NgayBatDau)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NgayKetThuc)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.MaDuAn)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.MoTa)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TenDuAn)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TrangThai)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NgayBatDau)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NgayKetThuc)
+            </td>
+            <td>
+                    @Html.ActionLink("Edit", "Edit", new {  id=item.Id }, new { @class="btn btn-warning" }) |
+                    @Html.ActionLink("Details", "Details", new { id=item.Id }, new { @class="btn btn-success" }) |
+                    @Html.ActionLink("Delete", "Delete", new { id=item.Id }, new { @class="btn btn-danger" })
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

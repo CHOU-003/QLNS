@@ -1,0 +1,77 @@
+﻿@model IEnumerable<AppHRM.Models.Hopdong>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1 class="text-center">Danh Hợp Đồng Nhân Viên</h1>
+
+<a asp-action="Create" class="btn btn-primary">Thêm Mới</a>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.MaHopDong)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.MaNhanVien)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.LoaiHopDong)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NgayBatDau)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NgayKetThuc)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.MucLuongThoaThuan)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.PhuCap)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DieuKhoan)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.MaHopDong)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.MaNhanVien)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.LoaiHopDong)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NgayBatDau)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NgayKetThuc)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.MucLuongThoaThuan)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PhuCap)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DieuKhoan)
+            </td>
+            <td>
+                    @Html.ActionLink("Edit", "Edit", new {  id=item.Id }, new { @class="btn btn-warning" }) |
+                    @Html.ActionLink("Details", "Details", new { id=item.Id }, new { @class="btn btn-success" }) |
+                    @Html.ActionLink("Delete", "Delete", new { id=item.Id }, new { @class="btn btn-danger" })
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
+

@@ -1,0 +1,108 @@
+﻿@model IEnumerable<AppHRM.Models.Nhanvien>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1 class="text-center">DANH SÁCH NHÂN VIÊN</h1>
+
+<a asp-action="Create" class="btn btn-primary">Thêm Mới</a>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.MaNhanVien)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.HoTen)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.GioiTinh)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NgaySinh)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DiaChi)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Email)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.MaChucVu)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.MaPhongBan)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Luong)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NgayVaoLam)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.KinhNghiem)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.SDT)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.MaNguoiQuanLy)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.MaNhanVien)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.HoTen)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.GioiTinh)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NgaySinh)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DiaChi)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Email)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.MaChucVu)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.MaPhongBan)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Luong)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NgayVaoLam)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.KinhNghiem)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.SDT)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.MaNguoiQuanLy)
+            </td>
+            <td>
+                    @Html.ActionLink("Edit", "Edit", new {  id=item.Id }, new { @class="btn btn-warning" }) |
+                    @Html.ActionLink("Details", "Details", new { id=item.Id }, new { @class="btn btn-success" }) |
+                    @Html.ActionLink("Delete", "Delete", new { id=item.Id }, new { @class="btn btn-danger" })
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
+<a asp-action="/Index" class="btn btn-info">Danh Sách Hợp Đồng Nhân Viên</a>
+
